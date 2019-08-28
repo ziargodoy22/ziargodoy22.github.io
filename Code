@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<title>Website By Ziar</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+<div id="header">
+    <h1 style = "font-family:Helvetica;font-size:80px;font-style:Helvetica;">
+        A Ziar Website
+      </h1>
+    <p1 style = "font-family:Helvetica;font-size:25px;font-style: Helvetica"> A Website Made By Ziar</p1>
+</div>
+
+<div id="text">
+    <p2 style = "font-family:Helvetica;font-size:20px;font-style:Helvetica">
+    About Me
+    </p2>
+    
+    </div>
+
+    #header {
+    text-align: center;
+    font-family: 'Circular-Book', Arial, sans-serif;
+}
+
+body {
+    background-image: url(https://images8.alphacoders.com/679/thumb-1920-679478.jpg);
+    background-color: #cccccc
+}
+
+#text {
+    text-align: left;
+    font-family: 'Circular-Book', Arial, sans-serif;
+} 
