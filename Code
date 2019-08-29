@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="https://www.youtube.com/watch?v=3yAbIU4A5qU">Home</a></li>
+  <li><a href="https://docs.google.com/document/d/1NYW1f-JvD4Fe2guXZ2tD1dI9clkwFYGQaD_yygak1Cw/edit">News</a></li>
+  <li><a href="">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+
 <title>Website By Ziar</title>
     <link rel="stylesheet" type="text/css" href="main.css">
 <div id="header">
     <h1 style = "font-family:Helvetica;font-size:80px;font-style:Helvetica;">
         A Ziar Website
       </h1>
-    <p1 style = "font-family:Helvetica;font-size:25px;font-style: Helvetica"> A Website Made By Ziar</p1>
+    <p style = "font-family:Helvetica;font-size:25px;font-style: Helvetica"> A Website Made By Ziar</p>
 </div>
 
 <div id="text">
-    <p2 style = "font-family:Helvetica;font-size:20px;font-style:Helvetica">
-    About Me
-    </p2>
+    <p style = "font-family:Helvetica;font-size:20px;font-style:Helvetica">
     
-    </div>
+    </p>
+    
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/43862320&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>    
 
-    #header {
+</div>
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/473952105&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+
+
+
+
+
+#header {
     text-align: center;
     font-family: 'Circular-Book', Arial, sans-serif;
 }
 
 body {
     background-image: url(https://images8.alphacoders.com/679/thumb-1920-679478.jpg);
+    position: fixed
     background-color: #cccccc
 }
-
-#text {
-    text-align: left;
-    font-family: 'Circular-Book', Arial, sans-serif;
-} 
