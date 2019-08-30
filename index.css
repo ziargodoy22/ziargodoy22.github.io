@@ -1,0 +1,10 @@
+#header {
+    text-align: center;
+    font-family: 'Circular-Book', Arial, sans-serif;
+}
+
+body {
+    background-image: url(https://images8.alphacoders.com/679/thumb-1920-679478.jpg);
+    position: fixed
+    background-color: #cccccc
+}
